@@ -75,7 +75,7 @@ body {
     height: fit-content;
     background-size: cover;
     border: 1px solid rgb(83, 83, 83);
-    background-image: url(backgrounds/fondo3.jpg);
+    background-image: url(fondo3.jpg);
 
 }
 
@@ -97,7 +97,7 @@ body {
     background-size: cover;
     border: 1px solid rgb(83, 83, 83);
     background-color: #1163cfcb;
-    background-image: url(backgrounds/fondo3.jpg);
+    background-image: url(fondo3.jpg);
     background-blend-mode: multiply;
 }
 
@@ -121,7 +121,7 @@ body {
 
 .seccion_de_enlaces {
     padding: 50px;
-    background-image: url(backgrounds/fondo3.jpg);
+    background-image: url(fondo3.jpg);
     background-color: #2b7ae2;
     background-blend-mode: multiply;
     margin-top: 20px;
