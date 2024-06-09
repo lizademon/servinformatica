@@ -1,0 +1,144 @@
+.textblack {
+    color: black;
+}
+
+body {
+    margin: 0px;
+    color: white;
+    background-image: url('clouds.png');
+    background-color: rgba(167, 167, 167, 0.582);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: Garamond, serif;
+}
+
+html,
+body {
+    overflow: auto;
+    scrollbar-width: thin;
+}
+
+.center {
+    text-align: center;
+}
+
+.encabezado {
+    background-image: linear-gradient(to top, #2b7ae2, #193f72);
+    height: 105px;
+}
+
+.imagen_de_encabezado {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+.texto_de_encabezado {
+    margin-left: 15px;
+    margin-top: 0px;
+    padding-top: 45px;
+    text-decoration: underline;
+    text-decoration-color: #ffffff59;
+}
+
+.seccion_de_presentacion {
+    display: flex;
+    padding-top: 40px;
+}
+
+.imagen_de_presentacion {
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.seccion_de_presentacion2 {
+    height: 300px;
+    background-image: linear-gradient(to bottom, #2b7ae2, #295997, #13345f);
+    display: flex;
+    border-bottom: 2px solid rgb(59, 59, 59);
+
+}
+
+.box {
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 5%;
+    margin-top: 30px;
+    width: 70%;
+    height: fit-content;
+    background-size: cover;
+    border: 1px solid rgb(83, 83, 83);
+    background-image: url(backgrounds/fondo3.jpg);
+
+}
+
+.servicio {
+    transition: 1s;
+}
+
+.servicio:hover {
+    background-color: #1a4a8a;
+}
+
+.texto_de_presentacion2 {
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 5%;
+    margin-top: 30px;
+    width: 70%;
+    height: fit-content;
+    background-size: cover;
+    border: 1px solid rgb(83, 83, 83);
+    background-color: #1163cfcb;
+    background-image: url(backgrounds/fondo3.jpg);
+    background-blend-mode: multiply;
+}
+
+.box1 {
+    color: white;
+    width: 200px;
+    height: 250px;
+    padding: 10px;
+    padding-top: 1px;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-size: cover;
+    background-color: #2b7ae2;
+    background-blend-mode: multiply;
+}
+
+.references {
+    margin-left: 6%;
+    text-decoration: none;
+}
+
+.seccion_de_enlaces {
+    padding: 50px;
+    background-image: url(backgrounds/fondo3.jpg);
+    background-color: #2b7ae2;
+    background-blend-mode: multiply;
+    margin-top: 20px;
+    background-size: cover;
+    border-top: 1px solid rgb(78, 78, 78);
+    display: block;
+    text-align: center;
+}
+
+
+.enlace {
+    height: 70px;
+    width: 70px;
+    border-radius: 40%;
+    transition: 1s;
+}
+
+.enlace:hover {
+    border-radius: 10px;
+}
